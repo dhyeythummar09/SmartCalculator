@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="welcome"><h1>🧮 Welcome to SmartCalc</h1></div>
+        <p><i>#Your pocket math buddy</i></p>
+    </div>
+    <div class="calculator-container">
+        <div class="screen"></div>
+        <div class="answer">
+            <span class="result">Result: </span><span class="value"></span>
+        </div>
+        <hr>
+        <div class="key-pad">
+            <div class="row" id="row1">
+                <button class="grey" id="clear-screen">C</button>
+                <button class="grey" id="backspace">←</button>
+                <button class="grey">%</button>
+                <button class="orange">/</button>
+            </div>
+            <div class="row" id="row2">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="orange">x</button>
+            </div>
+            <div class="row" id="row3">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="orange">-</button>
+            </div>
+            <div class="row" id="row4">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="orange">+</button>
+            </div>
+            <div class="row" id="row5">
+                <button>0</button>
+                <button>.</button>
+                <button>()</button>
+                <button id="equalTo" class="orange">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: rgb(247, 221, 196);
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin : 1rem 1rem 1rem 1rem;
+}
+
+.welcome{
+    background-color: rgb(7, 57, 102);
+    width : 100vw;
+    margin : 0 0 1rem 0;
+}
+
+h1{
+    font-size: 4rem;
+    color:rgb(138, 137, 137);
+}
+
+p{
+    font-size: 1.5rem;
+    color: rgb(7, 57, 102);
+    font-weight: 700;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.calculator-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: rgb(0, 0, 0);
+    width:47vh;
+    height:68vh;
+    border-radius: 5%;
+}
+
+.screen{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    /* text-align: center; */
+    margin : 0.1rem 0.5rem 0.5rem 0.5rem;
+    width : 42vh;
+    height : 6vh;
+    background-color: rgba(61, 60, 60, 0.813);
+    border-radius: 3%;
+    color : rgb(182, 246, 79);
+    padding : 0.2rem 0.2rem 0.2rem 0.2rem;
+    font-size: 1.5rem;
+}
+
+.answer{
+    display:flex;
+    justify-content: center;
+    height : 4vh;
+    margin : 0.4rem 0.3rem 0.5rem 0.3rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.result{
+    font-size: 1.8rem;
+    color: rgba(121, 119, 119, 0.813);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.value{
+    color:#d11e1efd;
+    font-size: 1.6rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+hr{
+    width: 45vh;
+    color: rgb(61, 60, 60);
+}
+
+.key-pad{
+    height : 45vh;
+    width : 38vh;
+    margin : 1rem;
+    padding : 0.2rem 0.5rem 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.3rem;
+}
+
+button {
+    width : 4rem;
+    height : 4rem;
+    border-radius: 50%;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    font-size: 1.4rem;
+    cursor : pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #818080;
+  transform: scale(1.05);
+}
+
+.grey{
+    background-color: rgb(143, 142, 142);
+    color : black;
+}
+
+.orange{
+    background-color: rgb(226, 140, 26);
+    color: white;
+}
+
+.grey:hover {
+  background-color: #818080;
+}
+
+.orange:hover {
+  background-color: #b96601;
+}
+
+#backspace:hover{
+    background-color: #d11612;
+}
