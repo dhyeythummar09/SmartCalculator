@@ -34,12 +34,14 @@ This web-based calculator is designed to give you a smooth, responsive experienc
 
 No external libraries, no build tools — just **HTML + CSS + JS**.
 
+## 📜 License
+
+This project is open-source and free to use.
+Feel free to fork, clone, improve, and share! 😄
+
+
 ### To run locally:
 ```bash
 git clone https://github.com/dhyeythummar09/SmartCalculator.git
-cd smartcalc
+cd SmartCalculator
 open index.html in a browser # or just double-click it
-
-📜 License
-This project is open-source and free to use.
-Feel free to fork, clone, improve, and share! 😄
